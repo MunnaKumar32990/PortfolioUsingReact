@@ -105,39 +105,54 @@ innovative development teams.`,
   },
 
   certifications: [
-    {
-      id: 1,
-      title: "Microsoft Certified: Azure Fundamentals",
-      issuer: "Microsoft",
-      date: "2025",
-      image: "Azure.png",
-      link: "#"
-    },
-    {
-      id: 2,
-      title: "NPTEL Programming in Java",
-      issuer: "NPTEL",
-      date: "2024",
-      image: "java.png",
-      link: "#"
-    },
-    {
-      id: 3,
-      title: "NPTEL Operating System Fundamentals",
-      issuer: "NPTEL",
-      date: "2024",
-      image: "os.png",
-      link: "#"
-    },
-    {
-      id: 4,
-      title:" LinguaSkill English Language Proficiency",
-      issuer: "Cambridge University Press",
-      date: "2024",
-      image: "lingua.png",
-      link: "#"
-    }
-  ],
+  {
+    id: 1,
+    title: "Microsoft Certified: Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "2025",
+    image: "Azure.png",
+    link: "#",
+    category: "cloud"
+  },
+  {
+    id: 2,
+    title: "NPTEL Programming in Java",
+    issuer: "NPTEL",
+    date: "2024",
+    image: "java.png",
+    link: "#",
+    category: "development"
+  },
+  {
+    id: 3,
+    title: "NPTEL Operating System Fundamentals",
+    issuer: "NPTEL",
+    date: "2024",
+    image: "os.png",
+    link: "#",
+    category: "computer-science"
+  },
+  {
+    id: 4,
+    title: "LinguaSkill English Language Proficiency",
+    issuer: "Cambridge University Press",
+    date: "2024",
+    image: "lingua.png",
+    link: "#",
+    category: "language"
+  },
+  {
+    id: 5,
+    title: "Salesforce Certified AI Associate",
+    issuer: "Salesforce",
+    date: "2024",
+    image: "salesforce.png",
+    link: "#",
+    category: "ai"
+
+  }
+],
+
 
   codingPlatforms: [
     {
