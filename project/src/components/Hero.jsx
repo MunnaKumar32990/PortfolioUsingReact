@@ -31,10 +31,10 @@ const Hero = () => {
 
   // Function to handle resume download
   const downloadResume = () => {
-    const resumeUrl = "/newResume.pdf";
+    const resumeUrl = "/Microsoft.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = "newResume.pdf";
+    link.download = "Microsoft.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
